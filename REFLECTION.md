@@ -40,3 +40,10 @@ Another improvement would be adding live stock prices through an API instead of 
 
 Overall, this project helped me see how AI can assist with software development. I learned that being able to explain what you want, follow instructions, and test the results is just as important as generating the code.
 
+
+## 6. Screenshots of ai help
+<img width="910" height="863" alt="Screenshot 2026-11-15 at 8 25 33 PM" src="https://github.com/user-attachments/assets/50c86611-ecca-4dd7-9f5c-d33531391723" />
+<img width="910" height="725" alt="Screenshot 2026-11-15 at 8 31 39 PM" src="https://github.com/user-attachments/assets/e74e79a2-a003-4a9a-88be-cb9f37a9c284" />
+<img width="910" height="725" alt="Screenshot 2026-11-15 at 8 32 24 PM" src="https://github.com/user-attachments/assets/69fea309-0b9a-4a5e-afa0-11aa15d338fb" />
+<img width="910" height="725" alt="Screenshot 2026-11-15 at 8 32 48 PM" src="https://github.com/user-attachments/assets/409af313-8d1f-4ea1-8da4-586c834ad854" />
+
