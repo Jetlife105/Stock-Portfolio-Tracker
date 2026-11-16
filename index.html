@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Portfolio Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Portfolio Tracker</h1>
+        <p>Track your investments and profits!</p>
+
+        <div class="summary">
+            <h2>Portfolio Summary</h2>
+            <p>Total Investment: $<span id="investment">0.00</span></p>
+            <p>Current Value: $<span id="value">0.00</span></p>
+            <p>Profit/Loss: $<span id="profit">0.00</span></p>
+        </div>
+
+        <h2>Add a Stock</h2>
+
+        <form id="stockForm">
+            <input type="text" id="ticker" placeholder="Stock Symbol (NVDA)" required>
+            <input type="number" id="shares" placeholder="Number of Shares" min="0.000001" step="any" required>
+            <input type="number" id="purchasePrice" placeholder="Purchase Price" min="0" step="any" required>
+            <input type="number" id="currentPrice" placeholder="Current Price" min="0" step="any" required>
+            <button type="submit">Add Stock</button>
+        </form>
+
+        <h2>My Stocks</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Stock</th>
+                    <th>Shares</th>
+                    <th>Profit/Loss</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="stockList"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
